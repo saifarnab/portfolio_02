@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 19, 2017, 1:34:56 PM
+    Author     : Saif Arnab
+*/
+/*For IE browser*/
+@font-face{
+    font-family: sb;
+    src: url(../fonts/Sketch_Block.eot) 
+}
+/*Foe css3 browser*/
+@font-face{
+    font-family: sb;
+    src: url(../fonts/Sketch_Block.ttf) 
+}
+
+/*For IE browser*/
+@font-face{
+    font-family: tms;
+    src: url(../fonts/Trebuchet_MS.eot) 
+}
+/*Foe css3 browser*/
+@font-face{
+    font-family: tms;
+    src: url(../fonts/Trebuchet MS.ttf) 
+}
+a{
+    font-family: tms;
+    font-size: 16px;
+    color: #990000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.main_wrapper{
+    width: 100%;
+    height: auto;
+}
+.main_wrapper > .main{
+    width: 1030px;
+    margin: 0 auto;
+    height: auto;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;     
+}
+.main_wrapper > .main > .text_section{
+    width: 47%;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+.main_wrapper > .main > .text_section > h1{
+    font-family: sb;
+    font-size: 72px;
+    font-weight: normal;
+    color: #A44813;
+    margin-bottom: 10px;
+}
+.main_wrapper > .main > .text_section > .navigation{}
+.main_wrapper > .main > .text_section > .navigation > ul{
+    margin-bottom: 15px;
+}
+.main_wrapper > .main > .text_section > .navigation > ul > li{
+    display: inline-block;
+}
+.main_wrapper > .main > .text_section > .navigation > ul > li:after{
+    content: '|';
+    padding: 0 15px;
+}
+
+.main_wrapper > .main > .text_section > .navigation > ul > li:last-child:after{
+    content: none;
+}
+.main_wrapper > .main > .text_section > .navigation > ul > li > a{
+
+}
+.main_wrapper > .main > .text_section > .navigation > ul > li > a:hover{
+
+}
+.main_wrapper > .main > .text_section > .content{}
+.main_wrapper > .main > .text_section > .content > ul{
+    margin-bottom: 15px;
+}
+.main_wrapper > .main > .text_section > .content > ul > li{
+    line-height: 23px;
+    list-style: square inside none;
+}
+.main_wrapper > .main > .text_section > .content > ul > li > a{
+
+}
+.main_wrapper > .main > .text_section > .content > p{
+    margin-top: 10px;
+    font-family: tsm;
+    font-size: 16px;
+    letter-spacing: .3px;
+    line-height: 20px;
+}
+.main_wrapper > .main > .text_section > .content > p > strong{
+    font-weight: bold;
+}
